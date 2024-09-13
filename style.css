@@ -1,0 +1,69 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    font-family: 'Roboto',sans-serif;
+    background-image: url("https://i.pinimg.com/1200x/bd/e0/f4/bde0f4c08108646744dcb99b51f9864a.jpg")
+}
+h1 {
+    color: yellow;
+    font-size: 50px;
+    letter-spacing:10px;
+    margin-bottom: 10ps;
+    text-transform: uppercase;
+
+}
+h1{
+    background: burlywood;
+    color: black;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+    h2 {
+        color: darkorange;
+        font-size: 50px;
+    }
+p {
+    color: white;
+}
+
+.menu{
+    width: 80%;
+    background-color: brown;
+    margin-left: auto;
+    margin-left: auto;
+    padding: 20px;
+
+}
+h1,h2,p {
+    text-align: center;
+    
+}
+.established {
+    font-style: italic;
+}
+.item p {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 28px;
+}
+.flavor,.dessert {
+    width: 50%;
+    text-align: left;
+    font-size: 40px;
+}
+.price {
+    width: 50%;
+    text-align: right;
+    font-size: 28px;
+}
+hr {
+    height: 4px;
+    background-color: brown;
+    border-color:brown;
+}
+a {
+    color: white;
+}
